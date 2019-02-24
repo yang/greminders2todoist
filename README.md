@@ -1,6 +1,6 @@
 # greminders2todoist
 
-A script that helped me migrate from Google Inbox to Todoist.
+A simple script that helped me migrate from Google Inbox to Todoist.  Parse exports of Google Reminders (as in Google Inbox), especially the time/recurrence structure, and import into Todoist via the Todoist API.
 
 # Setup and Usage
 
