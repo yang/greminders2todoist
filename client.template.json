@@ -1,0 +1,9 @@
+{
+    "installed": {
+        "client_id": "XXX",
+        "client_secret": "XXX",
+        "redirect_uris": ["http://localhost:3423"],
+        "auth_uri": "https://todoist.com/oauth/authorize",
+        "token_uri": "https://todoist.com/oauth/access_token"
+    }
+}
