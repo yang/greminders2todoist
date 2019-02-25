@@ -14,8 +14,10 @@ Optional step: If you use PyCharm, make mypy's typeshed available to the IDE:
 
     bash setup-ide.bash
 
-Now, register an app with Todoist at https://developer.todoist.com/appconsole.html, and create a client.json, using client.template.json as a template. Set the redirect
+Now, register an app with Todoist at https://developer.todoist.com/appconsole.html, setting the redirect
 URL to http://localhost:3423.
+
+Create a client.json, using client.template.json as a template, using the key and secret for your registered app.
 
 Export your Google Reminders at https://takeout.google.com/ (select just Google Reminders to make it quick).
 
