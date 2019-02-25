@@ -4,6 +4,8 @@ A simple script that helped me migrate from Google Inbox to Todoist.  Parse expo
 
 # Setup and Usage
 
+Requirements: You need at least Python 3.6.  This script has been tested on Python 3.7 on MacOS, but file an issue if you can't get it running on Linux.
+
 Install all requirements:
 
     pip install -e '.[test,dev]'
