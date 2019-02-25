@@ -8,16 +8,20 @@ Install all requirements:
 
     pip install -e '.[test,dev]'
 
-If you use PyCharm, make mypy's typeshed available to the IDE:
+Optional step: If you use PyCharm, make mypy's typeshed available to the IDE:
 
     bash setup-ide.bash
 
-Register an app with Todoist, and create a client.json, using client.template.json as a template. Set the redirect
+Now, register an app with Todoist, and create a client.json, using client.template.json as a template. Set the redirect
 URL to http://localhost:3423.
 
 Export your Google Reminders at https://takeout.google.com/ (select just Google Reminders to make it quick).
 
-Run the script from the directory containing Reminders.html. Besides importing into Todoist, it will also produce an out.csv (comment out the Todoist code if you just want to see the CSV).
+Run the script from the directory containing Reminders.html:
+
+    greminders2todoist
+
+Besides importing into Todoist, it will also produce an out.csv (comment out the Todoist code if you just want to see the CSV).
 
 **By default, only reminders that are not already marked done, and are either recurrent or due in the future, are migrated.** If you want to tweak this logic, just edit the source.
 
