@@ -2,6 +2,10 @@
 
 A simple script that helped me migrate from Google Inbox to Todoist.  Parse exports of Google Reminders (as in Google Inbox), especially the time/recurrence structure, and import into Todoist via the Todoist API.
 
+# Warning
+
+**To newcomers to Todoist**: after migrating to the service, I found that it was consistently [stopping my repeating tasks](https://www.reddit.com/r/todoist/comments/ayke2h/todoist_still_dropping_repeatingrecurring_tasks/). I ultimately migrated away from Todoist.
+
 # Setup and Usage
 
 Requirements: You need at least Python 3.6.  This script has been tested on Python 3.7 on MacOS, but file an issue if you can't get it running on Linux.
